@@ -12,7 +12,7 @@ import sys
 
 import train_networks
 import medpy.metric.binary as mmb
-import networks.unet as unet
+import networks as unet
 import functions as functions
 
 nn.initializer.set_global_initializer(nn.initializer.KaimingNormal(), nn.initializer.Constant())
